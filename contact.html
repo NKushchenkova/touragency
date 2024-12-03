@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <title>The world of travel</title>
+
+</head>
+
+<head>
+    <link rel="shortcut icon" href="./images/icon.png" />
+</head>
+<div class="container">
+    <div class="card" id="header">
+
+        <body class="card-body">
+            <header class="card-body">
+                <div id="nav" class="card-body">
+                    <a class="nav-item" href="main.html" target="_self">Главная</a>
+                    <a class="nav-item" href="about.html" target="_self">О нас</a>
+                    <a class="nav-item" href="services.html" target="_self">Услуги</a>
+                    <a class="nav-item" href="contact.html" target="_self"><b>Контакты</b></a>
+                    </ul>
+                </div>
+            </header>
+        </body>
+    </div>
+    <div class="card">
+        <div id="title">
+            <h2>Контактные данные</h2>
+        </div>
+
+
+        <br>
+        <div class="card-body">
+
+            <div id="logo"><i>регистрация</i></div>
+            <p><a class="card-body" href="main.html#form"><img src="./images/logo.png" title="РЕГИСТРАЦИЯ" height="60"
+                        align="right" alt="РЕГИСТРАЦИЯ"></a></p>
+            <div class="card-body">
+                <img src="./images/theworldoftravel.jpg" title="the_world_of_travel" width="40%"
+                    style="margin-top: 0pc; margin-left: 30%;">
+            </div>
+            <div class="card-body" id="contact_date">
+                <b>Телефон:</b> +7 (495) 123-45-67 <br><br>
+                <b>Факс:</b><br>+7 (495) 765-43-21<br><br>
+                <b>Электронная почта:</b><br>the_world_of_travel.com<br><br>
+                <b>Адрес:</b>
+                г. Москва, ул. Путешественников, дом 10,<br>
+                офис 5,<br>
+                первый этаж,<br>
+                бизнес-центр "Мир Путешествий",<br>
+                район Арбат,<br>
+                почтовый индекс 123456<br><br>
+
+                <b>Веб-сайт: </b><br>www.the_world_of_travel.ru<br><br>
+
+                <b>Часы работы:</b><br>
+                Пн-Пт: 09:00 - 18:00<br>
+                Сб: 10:00 - 15:00<br>
+                Вс: Выходной<br><br>
+
+                <b>Социальные сети:</b><br>
+
+                <i>Facebook:</i> facebook.com/the_world_of_travel<br>
+                <i>Instagram: </i>instagram.com/the_world_of_travel<br>
+                <i>VK:</i> vk.com/the_world_of_travel
+            </div>
+
+
+            <div class="card-body">
+                <button style="z-index: 1;" class="card-body" id="backToTop" onclick="scrollToTop()"
+                    style="display: block;">Вернуться к началу</button>
+                <script>
+                    function scrollToTop() {
+                        window.scrollTo({
+                            top: 0,
+                            behavior: 'smooth' // Прокрутка будет плавной
+                        });
+                    }
+
+                    // Показываем кнопку, когда пользователь прокручивает вниз
+                    window.onscroll = function () {
+                        const button = document.getElementById('backToTop');
+                        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                            button.style.display = 'block'; // Показываем кнопку
+                        } else {
+                            button.style.display = 'none'; // Скрываем кнопку
+                        }
+                    };
+                </script>
+            </div>
+        </div>
+        <div class="card">
+            <footer>
+                <p>&copy; Путешествуй вместе с "The world of travel" </p>
+            </footer>
+        </div>
+        <script crossorigin="anonymous"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+        </body>
+        <link rel="stylesheet" href="contact.css">
+
+</html>

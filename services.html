@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <title>The world of travel</title>
+
+</head>
+
+<body>
+
+    <button style="z-index: 1;" id="backToTop" onclick="scrollToTop()">Вернуться к началу</button>
+
+    <link rel="shortcut icon" href="./images/icon.png" />
+    </head>
+    <div class="container">
+        <div class="card" id="header">
+
+            <body class="card-body">
+                <header class="card-body">
+                    <div id="nav" class="card-body">
+                        <a class="nav-item" href="main.html" target="_self">Главная</a>
+                        <a class="nav-item" href="about.html" target="_self">О нас</a>
+                        <a class="nav-item" href="services.html" target="_self"><b>Услуги</b></a>
+                        <a class="nav-item" href="contact.html" target="_self">Контакты</a>
+                    </div>
+                </header>
+            </body>
+        </div>
+
+        <div class="card">
+            <div id="title">
+                <h2>Туристическое агенство - "The world of travel"</h2>
+            </div>
+            <br>
+            <div class="card-body">
+
+                <div id="logo"><i>регистрация</i></div>
+                <p><a class="card-body" href="main.html#form"><img src="./images/logo.png" title="РЕГИСТРАЦИЯ"
+                            height="60" align="right" alt="РЕГИСТРАЦИЯ"></a></p>
+                <div class="card-body">
+                    <br>
+                    <br>
+                    <br>
+                    <div class="card-body" id="start">
+                        <p> Мы предлагаем широкий спектр туристических маршрутов. <br> Заполни <a href="#head"
+                                target="_self"><b>форму</b></a> ниже и мы подберём удобные для
+                            тебя маршруты и ближайшие туры </p>
+                    </div> <br><br><br>
+                    <div class="card-body">
+                        <img src="./images/travel 1.webp" title="Moraine Lake" width=60% style="margin-left: 10%">
+                    </div>
+                    <div class="card-body"></div>
+                    <img src="./images/travel 2.webp" title="The Grand Canyon" style="margin-left: 30%" width=60%>
+                </div>
+                <div class="form" class="card-body" id="head">
+
+                    <form class="card-body" action="https://www.bing.com/search?" id="UserEnter" name="UserEnter"
+                        target="_blank">
+                        <h3>
+                            <center>ПОИСК ТУРА ОН-ЛАЙН <input type="hidden" name="q" value="search"></center>
+                        </h3>
+
+                        <p>В какой город вы бы хотели поехать?</p>
+                        <select name="city" size="4" multiple>
+                            <OPTION value="1">Москва</OPTION>
+                            <OPTION value="2">Абакан</OPTION>
+                            <OPTION value="3">Архангельск</OPTION>
+                            <OPTION value="4">Барнаул</OPTION>
+                            <OPTION value="5">Волгоград</OPTION>
+                            <OPTION value="6">Грозный</OPTION>
+                            <OPTION value="7">Екатеринбург</OPTION>
+                            <OPTION value="8">Иркутск</OPTION>
+                            <OPTION value="9">Ижевск</OPTION>
+                            <OPTION value="10">Казань</OPTION>
+                            <OPTION value="11">Красноярск</OPTION>
+                            <OPTION value="12">Нижний Новгород</OPTION>
+                            <OPTION value="13">Новосибирск</OPTION>
+                            <OPTION value="14">Саров</OPTION>
+                            <OPTION value="15">Санкт-Петербург</OPTION>
+                            <OPTION value="16">Пермь</OPTION>
+                            <OPTION value="17">Томск</OPTION>
+                            <OPTION value="18">Уфа</OPTION>
+                            <OPTION value="19">Чебоксары</OPTION>
+                            <OPTION value="20">Якутск</OPTION>
+                        </select>
+                        <p> Страна, город и отель, в котором хотели бы остановиться:
+                            <br>
+                        </p>
+                        <p> <TEXTAREA id="pfvtn" cols=40 rows=4 name="textarea">Страна, город и отель</TEXTAREA>
+                        </p>
+
+                        <p>Дата вылета: <input type="date" name="user_date" value='2024-01-01'></p>
+                        <p>Продолжительность:
+                            <select name="period">
+                                <OPTION value="1">1 день</OPTION>
+                                <OPTION value="2">2 дня</OPTION>
+                                <OPTION value="3">3 дня</OPTION>
+                                <OPTION value="4">4 дня</OPTION>
+                                <OPTION value="5">5 дней</OPTION>
+                                <OPTION value="6">6 дней</OPTION>
+                                <OPTION value="7">7 дней</OPTION>
+                                <OPTION value="8">8 дней</OPTION>
+                                <OPTION value="9">9 дней</OPTION>
+                                <OPTION value="10">10 дней</OPTION>
+                                <OPTION value="11">11 дней</OPTION>
+                                <OPTION value="12">12 дней</OPTION>
+                                <OPTION value="13">13 дней</OPTION>
+                                <OPTION value="14">14 дней</OPTION>
+                                <OPTION value="15">15 дней</OPTION>
+                                <OPTION value="16">16 дней</OPTION>
+                                <OPTION value="17">17 дней</OPTION>
+                                <OPTION value="18">18 дней</OPTION>
+                                <OPTION value="19">19 дней</OPTION>
+                                <OPTION value="20">20 дней</OPTION>
+                                <OPTION value="21">21 дней</OPTION>
+                                <OPTION value="22">22 дней</OPTION>
+                                <OPTION value="23">23 дней</OPTION>
+                                <OPTION value="24">24 дней</OPTION>
+                                <OPTION value="25">25 дней</OPTION>
+                                <OPTION value="26">26 дней</OPTION>
+                                <OPTION value="27">27 дней</OPTION>
+                                <OPTION value="28">28 дней</OPTION>
+                                <OPTION value="29">29 дней</OPTION>
+                                <OPTION value="30">30 дней</OPTION>
+                            </select>
+                        </p>
+                        <p>Количество человек: <input type="Number" name="age" size=20 value="0"></p>
+                        <p>
+                            Есть ли дети?<br>
+                            <input type="radio" name="children" value="да" checked="checked">да<br>
+                            <input type="radio" name="children" value="нет">нет<br>
+                        </p>
+                        <p>
+                            <button type="submit">Отправить анкету</button>
+                        </p>
+                </div>
+
+                <script>
+                    function scrollToTop() {
+                        window.scrollTo({
+                            top: 0,
+                            behavior: 'smooth' // Прокрутка будет плавной
+                        });
+                    }
+
+                    // Показываем кнопку, когда пользователь прокручивает вниз
+                    window.onscroll = function () {
+                        const button = document.getElementById('backToTop');
+                        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                            button.style.display = 'block'; // Показываем кнопку
+                        } else {
+                            button.style.display = 'none'; // Скрываем кнопку
+                        }
+                    };
+                </script>
+            </div>
+            <div class="card">
+                <footer>
+                    <p>&copy; Путешествуй вместе с "The world of travel" </p>
+                </footer>
+            </div>
+
+            <script crossorigin="anonymous"
+                integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<link rel="stylesheet" href="services.css">
+
+</html>
