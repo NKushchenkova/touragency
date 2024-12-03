@@ -1,92 +1,84 @@
 [
   {
     "id": "1",
-    "title": "Солнечная Турция",
+    "title": "Турция",
     "vendor_code": "111",
     "description": "3 место по числу пляжей с `Голубым флагом`",
-    "price": 66 578 ₽,
-    "img": "./images/Egypt.jpg"
+    "price": 66578,
+    "img": "./images/1.jpg"
   },
   {
     "id": "2",
-    "title": "Товар 2",
+    "title": "ОАЭ",
     "vendor_code": "222",
-    "description": "Описание 2",
-    "price": 200,
-    "img": "./images/Egypt.jpg"
+    "description": "Мир рекордов, роскоши и красивых пляжей",
+    "price": 85644,
+    "img": "./images/2.jpg"
   },
   {
     "id": "3",
-    "title": "Товар 3",
+    "title": "Египет",
     "vendor_code": "333",
-    "description": "Описание 3",
-    "price": 300,
-    "img": "./images/Egypt.jpg"
+    "description": "`Аквариумное` море и отдых круглый год",
+    "price": 82609,
+    "img": "./images/3.jpg"
   },
   {
     "id": "4",
-    "title": "Товар 4",
+    "title": "Бахрейн",
     "vendor_code": "444e",
-    "description": "Описание 4",
-    "price": 400,
-    "img": "./images/Egypt.jpg"
+    "description": "Арабская экзотика на островах теплого залива",
+    "price": 129253,
+    "img": "./images/4.jpg"
   }
   ,
   {
     "id": "5",
-    "title": "Товар 5",
+    "title": "Таиланд",
     "vendor_code": "4445e",
-    "description": "Описание 6",
-    "price": 400,
-    "img": "./images/Egypt.jpg"
+    "description": "Белоснежные пляжи, экзотика, массажи",
+    "price": 401282,
+    "img": "./images/5.jpg"
   },
   {
     "id": "6",
-    "title": "Товар 6",
+    "title": "Мальдивы",
     "vendor_code": "4446e",
-    "description": "Описание 6",
-    "price": 400,
-    "img": "./images/Egypt.jpg"
+    "description": "Райский отдых на резортах в Индийском океане",
+    "price": 208357,
+    "img": "./images/6.jpg"
   },
   {
     "id": "7",
-    "title": "Товар 7",
+    "title": "Россия",
     "vendor_code": "4447e",
-    "description": "Описание 7",
-    "price": 700,
-    "img": "./images/Egypt.jpg"
+    "description": "Любимые места, красивые пляжи, отели на любой вкус!",
+    "price": 21265,
+    "img": "./images/7.jpg"
   },
   {
     "id": "8",
-    "title": "Товар 8",
+    "title": "Саудовская Аравия",
     "vendor_code": "4448e",
-    "description": "Описание 8",
-    "price": 800,
-    "img": "./images/Egypt.jpg"
+    "description": "Фантастические пейзажи и богатое культурное наследство",
+    "price": 195233,
+    "img": "./images/8.jpg"
   },
   {
     "id": "9",
-    "title": "Товар 9",
+    "title": "Вьетнам",
     "vendor_code": "444e",
-    "description": "Описание 9",
-    "price": 400,
-    "img": "./images/Egypt.jpg"
+    "description": "Живописными пейзажами, рисовые террасы и красивые пляжи",
+    "price": 287455,
+    "img": "./images/9.webp"
   }
   ,
   {
     "id": "10",
-    "title": "Товар 10",
+    "title": "Греция",
     "vendor_code": "44410e",
-    "description": "Описание 10",
-    "price": 900,
-    "img": "./images/Egypt.jpg"
-  },
-  {
-    "id": "11",
-    "title": "Товар 11",
-    "vendor_code": "44411e",
-    "description": "Описание 1",
-    "price": 1100,
-    "img": "./images/Egypt.jpg"
+    "description": "Древнейшая архитектура, райские острова, знаменитая кухня",
+    "price": 175266,
+    "img": "./images/10.jpg"
   }
 ]
