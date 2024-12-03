@@ -1,10 +1,10 @@
 [
   {
     "id": "1",
-    "title": "Товар 1",
+    "title": "Солнечная Турция",
     "vendor_code": "111",
-    "description": "Описание 1",
-    "price": 100,
+    "description": "3 место по числу пляжей с `Голубым флагом`",
+    "price": 66 578 ₽,
     "img": "./images/Egypt.jpg"
   },
   {
